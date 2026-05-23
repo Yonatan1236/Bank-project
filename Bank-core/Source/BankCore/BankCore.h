@@ -1,6 +1,5 @@
 #pragma once
-
-namespace Core {
+namespace BankCore {
 
 	void PrintHelloWorld();
 

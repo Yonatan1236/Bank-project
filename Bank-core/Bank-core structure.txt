@@ -1,0 +1,9 @@
+bank core structure:
+classes:
+*data structure:
+-bank
+-protfoliu
+-account: transfer account, saving account
+*functional:
+-acsses: public acsses, menegment acsses
+-transaction:deposit, withdrawl, transfer
