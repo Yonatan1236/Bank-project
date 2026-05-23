@@ -1,4 +1,4 @@
-#include "../../Bank-core/Source/BankCore/account.h"
+#include "../../Bank-core/Source/BankCore/Account/Account.h"
 #include <vector>
 #include <iostream>
 
@@ -6,7 +6,7 @@
 
 
 bool test_account() {
-	account test_account("test", 1000, 102938);
+	Account test_account("test", 1000, 102938);
 	test_account.deposit(500);
 	test_account.withdraw(2000);
 	test_account.withdraw(750);

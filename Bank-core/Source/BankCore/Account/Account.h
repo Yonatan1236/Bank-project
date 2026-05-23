@@ -2,15 +2,15 @@
 #include <string>
 
 
-class account {
+class Account {
 private:
 	const std::string user_name;
 	double amount;
 	bool in_debt;
 	const int password;
 public:
-	account(std::string name, const double amount, const int password);
-	~account();
+	Account(std::string name, const double amount, const int password);
+	~Account();
 
 	std::string get_name() const;
 
